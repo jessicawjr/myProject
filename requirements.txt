@@ -1,0 +1,12 @@
+behave==1.2.5
+boto3
+configobject
+jira==1.0.7
+pyperclip
+pyvirtualdisplay
+sparkpost==1.2.0
+requests
+retry
+selenium==2.52
+timeout-decorator
+-e git+git@github.com:jessicawjr/myProject.git@master#egg=myProject
