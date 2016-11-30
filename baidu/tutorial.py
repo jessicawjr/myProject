@@ -29,6 +29,7 @@ class Baidu(object):
         return self.driver.current_url
 
 # if __name__=="__main__":
+#     from selenium import webdriver
 #     bd = Baidu(webdriver.Firefox())
 #     bd.open_baidu()
 #     print(bd.get_current_url())
