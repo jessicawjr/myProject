@@ -9,3 +9,7 @@ def get_driver(context):
 def before_all(context):
     context.driver = get_driver(context)
     context.bd = Baidu(context.driver)
+
+
+def after_all(context):
+    context.driver.quit()
